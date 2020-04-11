@@ -3,7 +3,7 @@ import POEMS from './poems'
 
 export default function PoemPage(props) {
   const poem = POEMS.find(p =>
-    p.id === props.match.params.poemId
+    p.id === props.match.params.poemId //props.match.params.poemId (see 14.14, pg. 27)
   )
   return (
     <article className='Poem'>
@@ -16,3 +16,6 @@ export default function PoemPage(props) {
     </article>
   )
 }
+
+
+

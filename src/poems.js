@@ -1,3 +1,5 @@
+//poems.js exports an array of objects, each object is a poem with an id, title and content.
+
 
 export default [
   {
